@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>They're in there</title>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+  <div class="header">
+    <h1>Welcome to Belly Button Biodiversity!!</h1>
+    <p>Dig deep into the data</p>    
+  </div>  
+ 
+  <div class="containera">
+    <div class="input-id">
+      <label for="text">Input ID: </label>
+      <input type="text" id="text" name="text-input">
+    </div>
+    <div id="data">
+      <a href="list.html">Full list of IDs</a>
+    </div>
+  </div>
+  
+  <div id= "top-plots">
+    <div id="profile">
+      <div id = "prof_head">
+        <h2 id = "prof_banner">Patient Profile</h2>
+      </div>
+      <p  id="prof_a"></p>
+      <p  id="prof_b"></p>
+      <p  id="prof_c"></p>
+      <p  id="prof_d"></p>
+      <p  id="prof_e"></p>
+      <p  id="prof_f"></p>
+      <p  id="prof_g"></p>
+    </div>
+    
+    <div id = "gauge">
+      <div id="gauge-plot"></div>
+    </div>
+
+  </div>
+
+  <div id="bar-plot"></div>
+  <div id="bubble-plot"></div>
+
+
+
+
+</body>
+<script src="index.js"></script>
+
+</html>
+
