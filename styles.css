@@ -1,0 +1,188 @@
+/* 
+   First things first.  I selected this ugly color as
+   the background color 
+*/
+
+body {
+    background-color: rgb(157, 207, 192);
+}
+
+/* 
+   The header will extend the width of the screen
+   and its height will be 100 px. The text will be
+   black Arial font, center-aligned
+*/
+
+.header{
+  background-color: skyblue;
+  color: black;
+  font-family:'Arial';
+  height: 100px;
+  text-align: center;
+  align-content: center;
+}
+
+.header h1{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header p{
+  margin-top: 10px;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* 
+   There are two interactive headers, one for each page,
+   containera and containerb.
+*/
+
+.containera {
+  height: 65px;
+  background: palegoldenrod;
+  margin-bottom: 20px;
+  padding: 5px;
+  columns: 2;
+}
+
+.containerb {
+  height: 65px;
+  background: palegoldenrod;
+  margin-bottom: 20px;
+  padding: 5px;
+}
+
+/* 
+   containera includes a textbox and a link to see the
+   full list of Patient IDs.
+*/
+
+.input-id {
+  margin-left: 10%;
+  margin-right: 10%;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+#data{
+  background-color:skyblue;
+  width: 125px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: darkgray;
+}
+
+#data a{
+  color: black;
+  margin-left: 12px;
+}
+
+#goback{
+  background-color:skyblue;
+  width: 175px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: darkgray;
+  margin-left:10%;
+  margin-top: 13px;
+}
+
+#goback a{
+  color: black;
+  margin-left: 15px;
+}
+
+/* 
+   These are the plots that belong in the top lines 
+   of the visualization page - the Patient Profile
+   and the Gauge
+*/
+
+#top-plots {
+  columns: 2;
+  height: 325px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+  /* 
+    Patient Profile CSS
+  */
+
+#profile {
+  height: 300px;
+  width: 300px;
+  background: white;
+  border-radius: 15px;
+}
+
+#prof_head{
+  height: 70px;
+  background-color: skyblue;
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: center;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+#prof_banner{
+  font-size: 30px;
+  padding-top: 15px;
+}
+
+#profile p{
+  height: 13px;
+  margin-left: 25px;
+  margin-top: 10px;
+}
+
+  /* 
+    Gauge CSS
+  */
+
+#gauge {
+  height: 300px;
+  border-radius: 15px;
+}
+
+#gauge-plot {
+  width: 500px;
+  height: 250px;
+}
+
+/* 
+  The CSS for the other plots
+*/
+
+#bar-plot {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+#bubble-plot {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+/* 
+  The CSS for the Profile IDs
+*/
+
+.container {
+  background: white;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+ 
